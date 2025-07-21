@@ -1,0 +1,11 @@
+{
+   "item.mistbornmod.raw_zinc": "Raw Zinc",
+   "item.mistbornmod.zinc": "Zinc Ingot",
+   "item.mistbornmod.raw_tin": "Raw Tin",
+   "item.mistbornmod.tin": "Tin Ingot",
+   "item.mistbornmod.obsidian_shard": "Obsidian Shard",
+
+   "block.mistbornmod.zinc_block": "Block of Zinc",
+   "block.mistbornmod.raw_zinc_block": "Block of Raw Zinc",
+   "block.mistbornmod.raw_tin_block": "Block of Raw Tin"
+}
