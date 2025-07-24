@@ -2,6 +2,7 @@ package com.theo.mistbornmod;
 
 import com.mojang.logging.LogUtils;
 import com.theo.mistbornmod.block.ModBlocks;
+import com.theo.mistbornmod.item.ModCreativeModeTabs;
 import com.theo.mistbornmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -32,6 +33,8 @@ public class MistbornMod {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -59,6 +62,7 @@ public class MistbornMod {
             event.accept(ModBlocks.ZINC_BLOCK);
             event.accept(ModBlocks.RAW_ZINC_BLOCK);
             event.accept(ModBlocks.RAW_TIN_BLOCK);
+            event.accept(ModBlocks.TIN_BLOCK);
         }
     }
 

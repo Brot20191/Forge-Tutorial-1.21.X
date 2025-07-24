@@ -7,5 +7,9 @@
 
    "block.mistbornmod.zinc_block": "Block of Zinc",
    "block.mistbornmod.raw_zinc_block": "Block of Raw Zinc",
-   "block.mistbornmod.raw_tin_block": "Block of Raw Tin"
+   "block.mistbornmod.raw_tin_block": "Block of Raw Tin",
+   "block.mistbornmod.tin_block": "Block of Tin",
+
+   "creativetab.mistbornmod.mistborn_items": "Mistborn Items",
+   "creativetab.mistbornmod.mistborn_blocks": "Mistborn Blocks"
 }
